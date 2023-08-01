@@ -1,0 +1,133 @@
+.character {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: $background-grey;
+
+  @media (min-width: $tablet-width) {
+    min-height: 384px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-height: 695px;
+    padding-top: 83px;
+    padding-bottom: 83px;
+  }
+}
+
+.character__wrapper {
+  position: relative;
+}
+
+.character__logo {
+  @media (min-width: $tablet-width) {
+    width: 45%;
+    margin-left: auto;
+  }
+}
+
+.character__title {
+  margin: 0 0 20px 0;
+
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+
+  @media (min-width: $tablet-width) {
+    width: 45%;
+    margin-left: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 38px;
+
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: normal;
+  }
+}
+
+.character__picture {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+
+    width: 45%;
+    max-width: 330px;
+    margin: 0;
+
+    transform: translateY(-50%);
+  }
+
+  @media (min-width: $desktop-width) {
+    left: 60px;
+
+    max-width: 596px;
+  }
+}
+
+.character__description {
+  margin: 0 0 20px 0;
+  padding: 0;
+
+  font-size: 14px;
+  line-height: 18px;
+
+  @media (min-width: $tablet-width) {
+    width: 45%;
+    margin-left: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 54px;
+    padding: 0;
+
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
+
+.character__form-list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  grid-template-columns: 1fr 1fr 1fr;
+
+  @media (min-width: $tablet-width) {
+    width: 45%;
+    margin-left: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 45%;
+  }
+}
+
+.character__form-input:checked + .character__picture-mini {
+  background-color: $border-grey;
+  border-radius: 20px;
+}
+
+.character__picture-mini {
+  display: block;
+  width: 100%;
+  max-width: 174px;
+  height: auto;
+  padding: 5px;
+
+  @media (min-width: $desktop-width) {
+    padding: 10px;
+  }
+}

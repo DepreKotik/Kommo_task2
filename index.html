@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2 task</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrapper container">
+      <a class="header__logo" href="#">
+        <picture>
+          <source media="(min-width: 1050px)" srcset="images/svg/logo.svg" width="170" height="48">
+          <img class="header__logo-picture" src="images/svg/logo.svg" width="128" height="36" alt="Логотип.">
+        </picture>
+      </a>
+      <button class="header__button" type="button">
+        <svg class="header__button-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 7L4 7" stroke="#57b8ff" stroke-width="1.5" stroke-linecap="round" />
+          <path d="M20 12L4 12" stroke="#57b8ff" stroke-width="1.5" stroke-linecap="round" />
+          <path d="M20 17L4 17" stroke="#57b8ff" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <a class="header__nav-link header__nav-link--active" href="#">Home</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">About</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">Team</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">Shop</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#">Pages</a>
+        </li>
+      </ul>
+      <ul class="header__user-list">
+        <li class="header__user-item header__user-item--basket">
+          <a class="header__user-link" href="#">
+            <span class="visually-hidden">Ваша корзина.</span>
+            <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.6619 23.9199C9.43408 23.9199 7.62158 25.7324 7.62158 27.9603C7.62158 30.1881 9.43408 32.0006 11.6619 32.0006C13.8898 32.0006 15.7023 30.1881 15.7023 27.9603C15.7023 25.7324 13.8897 23.9199 11.6619 23.9199ZM11.6619 29.5764C10.7706 29.5764 10.0458 28.8516 10.0458 27.9603C10.0458 27.069 10.7706 26.3442 11.6619 26.3442C12.5528 26.3442 13.2781 27.069 13.2781 27.9603C13.2781 28.8515 12.5533 29.5764 11.6619 29.5764Z"
+                fill="white" />
+              <path
+                d="M23.6212 23.9199C21.3933 23.9199 19.5808 25.7324 19.5808 27.9603C19.5808 30.1881 21.3933 32.0006 23.6212 32.0006C25.849 32.0006 27.6615 30.1881 27.6615 27.9603C27.6615 25.7324 25.849 23.9199 23.6212 23.9199ZM23.6212 29.5764C22.7299 29.5764 22.0051 28.8516 22.0051 27.9603C22.0051 27.069 22.7299 26.3442 23.6212 26.3442C24.5125 26.3442 25.2373 27.069 25.2373 27.9603C25.2373 28.8515 24.5125 29.5764 23.6212 29.5764Z"
+                fill="white" />
+              <path
+                d="M30.6304 7.89211C30.4001 7.60279 30.0511 7.43436 29.6818 7.43436H8.4579L7.3561 1.86594C7.25953 1.37826 6.87491 0.998883 6.3856 0.909196L1.53718 0.0203247C0.87743 -0.1013 0.247124 0.335511 0.126312 0.994071C0.00549991 1.65263 0.441436 2.28413 1.10006 2.40494L5.13798 3.14512L8.69509 21.1242C8.8074 21.6919 9.30559 22.1012 9.8841 22.1012H26.8536C27.418 22.1012 27.9073 21.7121 28.0346 21.1614L30.8628 8.91916C30.946 8.55917 30.8604 8.18098 30.6304 7.89211ZM25.8895 19.677H10.8796L8.93746 9.85897H28.1573L25.8895 19.677Z"
+                fill="white" />
+            </svg>
+            <span class="header__user-counter">0</span>
+          </a>
+        </li>
+        <li class="header__user-item">
+          <a class="header__user-link header__user-link--contact" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section class="intro">
+      <div class="intro__wrapper container">
+        <span class="intro__logo title-logo">FUTURE OF ESPORTS</span>
+        <h1 class="intro__title">Unleash the Next Generation of Gaming</h1>
+        <img class="intro__picture" src="images/content/intro-1x.webp" srcset="images/content/intro-2x.webp 2x"
+          alt="Изображение персонажа.">
+        <p class="intro__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis, nec donec in morbi
+          pulvinar. Enim non pulvinar neque.</p>
+        <div class="intro__link-wrapper">
+          <a class="intro__link intro__link--background-mode" href="#">Explore More</a>
+          <a class="intro__link" href="#">View our team</a>
+        </div>
+        <ul class="intro__social-list">
+          <li class="intro__social-item">
+            <a class="intro__social-link" href="#">FACEBOOK</a>
+          </li>
+          <li class="intro__social-item">
+            <a class="intro__social-link" href="#">INSTAGRAM</a>
+          </li>
+          <li class="intro__social-item">
+            <a class="intro__social-link" href="#">TWITCH</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="character">
+      <div class="character__wrapper container">
+        <span class="character__logo title-logo">FUTURE OF ESPORTS</span>
+        <h2 class="character__title">Customize Your Own Character</h2>
+        <img class="character__picture" src="images/content/character-1x.webp"
+          srcset="images/content/character-2x.webp 2x" alt="Изображение персонажа.">
+        <p class="character__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+          beatae.</p>
+        <form class="character__form">
+          <ul class="character__form-list">
+            <li class="character__form-item">
+              <label class="character__form-label">
+                <input class="character__form-input visually-hidden" type="radio" name="character" value="orange"
+                  checked>
+                <img class="character__picture-mini" src="images/content/character-option-orange-1x.webp"
+                  srcset="images/content/character-option-orange-2x.webp 2x" alt="Миниатюра персонажа.">
+              </label>
+            </li>
+            <li class="character__form-item">
+              <label class="character__form-label">
+                <input class="character__form-input visually-hidden" type="radio" name="character" value="texas">
+                <img class="character__picture-mini" src="images/content/character-option-texas-1x.webp"
+                  srcset="images/content/character-option-texas-2x.webp 2x" alt="Миниатюра персонажа.">
+              </label>
+            </li>
+            <li class="character__form-item">
+              <label class="character__form-label">
+                <input class="character__form-input visually-hidden" type="radio" name="character" value="army">
+                <img class="character__picture-mini" src="images/content/character-option-army-1x.webp"
+                  srcset="images/content/character-option-army-2x.webp 2x" alt="Миниатюра персонажа.">
+              </label>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+    <section class="news">
+      <div class="news__wrapper container">
+        <span class="news__logo title-logo">FUTURE OF ESPORTS</span>
+        <h2 class="news__title">Latest News & Articles</h2>
+        <div class="news__container">
+          <div class="news__main">
+            <img class="news__picture news__picture--main"
+              src="./images/content/Esports-Group-teams-up-with-the-Indianapolis-Colts-1x.webp"
+              srcset="./images/content/Esports-Group-teams-up-with-the-Indianapolis-Colts-2x.webp 2x"
+              alt="Фото события.">
+            <span class="news__date news__date--main">April 2, 2021</span>
+            <a class="news__link news__link--main" href="#">Esports Group teams up with the Indianapolis Colts</a>
+          </div>
+          <ul class="news__list">
+            <li class="news__item">
+              <img class="news__picture" src="./images/content/NAVI-reveals-s1mple-fifth-anniversary-1x.webp"
+                srcset="./images/content/NAVI-reveals-s1mple-fifth-anniversary-2x.webp 2x" alt="Фото события.">
+              <span class="news__date">April 2, 2021</span>
+              <a class="news__link" href="#">NAVI reveals s1mple fifth anniversary</a>
+            </li>
+            <li class="news__item">
+              <img class="news__picture" src="./images/content/A1esports-Shares-new-picture-1x.webp"
+                srcset="./images/content/A1esports-Shares-new-picture-2x.webp 2x" alt="Фото события.">
+              <span class="news__date">April 2, 2021</span>
+              <a class="news__link" href="#">A1esports Shares new picture</a>
+            </li>
+            <li class="news__item">
+              <img class="news__picture" src="./images/content/T1-unveil-partnership-with-Razer-1x.webp"
+                srcset="./images/content/T1-unveil-partnership-with-Razer-2x.webp 2x" alt="Фото события.">
+              <span class="news__date">April 2, 2021</span>
+              <a class="news__link" href="#">T1 unveil partnership with Razer</a>
+            </li>
+            <li class="news__item">
+              <img class="news__picture" src="./images/content/RX-secures-content-partnership-with-1x.webp"
+                srcset="./images/content/RX-secures-content-partnership-with-2x.webp 2x" alt="Фото события.">
+              <span class="news__date">April 2, 2021</span>
+              <a class="news__link" href="#">RX secures content partnership with</a>
+            </li>
+          </ul>
+        </div>
+        <a class="news__more-link" href="#">Read More</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper container">
+      <div class="footer__container footer__container--description">
+        <picture>
+          <source media="(min-width: 768px)" srcset="images/svg/logo.svg" width="170" height="48">
+          <img class="footer__logo-picture" src="images/svg/logo.svg" width="128" height="36" alt="Логотип.">
+        </picture>
+        <p class="footer__description">Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed
+          turpis volutpat. Cursus sed massa non .
+        </p>
+      </div>
+      <div class="footer__container">
+        <h3 class="footer__title">Menu Items</h3>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">About</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Blog</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Shop</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__container">
+        <h3 class="footer__title">Other Pages</h3>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">Styleguide</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Changelog</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">licenses</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Team</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

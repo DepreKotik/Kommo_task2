@@ -1,0 +1,50 @@
+.title-logo {
+  position: relative;
+
+  display: block;
+  margin: 0 0 12px 0;
+  padding: 0 0 0 15px;
+
+  font-size: 10px;
+  line-height: 16px;
+  font-family: Orbitron;
+  color: $blue;
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    padding: 2px 0 0 25px;
+
+    font-size: 14px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 10px 0 0 40px;
+
+    font-size: 16px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 12px;
+    height: 12px;
+
+    background-image: url("../images/svg/fire.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media (min-width: $tablet-width) {
+      width: 18px;
+      height: 18px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
